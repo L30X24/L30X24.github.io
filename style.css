@@ -51,7 +51,7 @@ nav{
     -webkit-text-stroke-width: 0.75px;
 }
 #inicio{
-    background-image: url("https://raw.githubusercontent.com/L30X24/L30X24.github.io/main/Fondo.png");
+    background-image: <img src="Imágenes recortadas/Fondo.png">;
     min-height: 250px;
     background-repeat: no-repeat;
     background-size: cover;
