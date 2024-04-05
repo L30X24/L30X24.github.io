@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    color: rgb(15, 15, 15);
+    font-size: 85px;
+    padding: 0px 0px 50px 0px;
+}
+h2{
+    color: rgb(30, 30, 30);
+    font-size: 55px;
+    padding: 0px 0px 30px 0px;
+}
+.etiqueta{
+    color: rgb(102, 102, 204);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    font-size: 35px;
+}
+nav ul{
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+    padding-right: 30px;
+    list-style: none;
+}
+#texto{
+    text-align: justify;
+    font-family: "Delicious Handrawn", cursive;
+    font-size: 30px;
+}
+section{
+    padding: 10px 100px 10px 100px;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(67, 136, 204);
+    border-bottom: 1px black;
+    text-align: center;
+    font-size: 27px;
+    -webkit-text-stroke-width: 0.75px;
+}
+#inicio{
+    background-image: url("Imágenes recortadas/Fondo.png");
+    min-height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    padding-top: 37px;
+    padding-bottom: 70px;
+}
+#sobremi{
+    background-color: rgb(67, 136, 204);
+}
+#contacto{
+    border-top: 1px solid rgb(15, 15, 15);
+    background-color: rgb(102, 102, 204);
+}
+img{
+    padding: 5px 10px 20px 10px;
+}
+nav a{
+    text-decoration: none;
+}
+a:any-link{
+    color: rgb(102, 102, 204);
+}
+a:-webkit-any-link{
+    color: rgb(102, 102, 204);
+}
+a:-moz-any-link{
+    color: rgb(102, 102, 204);
+}
+a:hover{
+    color: white;
+}
+.formitem{
+    display: grid;
+    grid-template-columns: 150px 350px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.formitem label{
+    font-size: 20px;
+    font-weight: 700;
+}
+.formitem input, .formitem textarea{
+    border-radius: 6px;
+    border: 2px solid #222;
+}
+.formitem button[type="submit"]{
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    grid-column: 2/3;
+}
